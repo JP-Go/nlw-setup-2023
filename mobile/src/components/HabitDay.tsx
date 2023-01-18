@@ -10,6 +10,7 @@ export const DAY_SIZE =
 export function HabitDay() {
   return (
     <TouchableOpacity
+      activeOpacity={0.7}
       className="bg-zinc-900 m-1 rounded-lg border-2 border-zinc-800"
       style={{ width: DAY_SIZE, height: DAY_SIZE }}
     />
