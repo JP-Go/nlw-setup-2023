@@ -1,6 +1,7 @@
 import { Habit } from "./components/Habit";
 
 function App() {
+export function App() {
   return (
     <div>
       <Habit completed={3} />
