@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { SummaryTable } from "./components/SummaryTable";
 import "./main.css";
+import "./lib/dayjs";
 
 // import { Habit } from "./components/Habit";
 
