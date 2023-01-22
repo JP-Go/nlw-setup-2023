@@ -41,7 +41,7 @@ export function New() {
 
     try {
       if (!title.trim() || weekDays.length === 0) {
-        Alert.alert('Erro: Informações incompletas', 'Informe o nome do hábito e a periodicidade.')
+        return Alert.alert('Erro: Informações incompletas', 'Informe o nome do hábito e a periodicidade.')
       } else {
         await api.post('habits', { title, weekDays })
         setTitle('')
